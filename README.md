@@ -8,8 +8,9 @@ Repositório criado para registrar minha evolução durante o desafio de dados. 
 
 Estrutura do repositório
 
-└── treinamento-dados-end-to-end/
-    ├── anotacoes/              # Resumos das aulas e outros recursos do projeto
-    ├── apresentacao/           # PDF da apresentação e relatório executivo
-    ├── notebooks/              # Notebooks de código utilizados
-    └── src/                    # Base de dados
+
+    treinamento-dados-end-to-end
+    ├── anotacoes
+    ├── apresentacao
+    ├── notebooks
+    └── src
