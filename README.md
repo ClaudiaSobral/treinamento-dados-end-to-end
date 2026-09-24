@@ -41,7 +41,10 @@ Então procurei por alguns filmes do diretor americano David Lynch. Fire Walk wi
 - Depois, fiz o processo inverso: procurei por alguns filmes contidos no cabeçalho do dataset. Creed III consta com score 73.0 no dataset, mas 6.7 no IMDB. Avatar: The Way of Water está com 78.0 no dataset e 7.5 no IMDB. São valores relativamente próximos, o que me leva a crer que só não está atualizado.
 
 
+- Fiz o tratamento de datas e voltei a investigar o critério de escolha dos filmes. Ainda não ficou claro o porquê de alguns filmes estarem e outros não, mas provavelmente a pessoa que elaborou o dataset optou por não colocar alguns filmes com NaNs e principalmente não colocar filmes obscuros demais.
+
 
 ### Onde eu tropecei
 
 - Procurei filme nacional pela coluna name_x. Obviamente não apareceu.
+- Tentei converter as datas do formato string para o formato dd-mm-aaaa. Tinha um espaço extra na coluna original de datas. Tratei o espaço, mas acabei convertendo datetime[us], por ser o formato 
