@@ -11,3 +11,5 @@
     - Isso reduziu o dataset em praticamente 40% (de 10 mil registros para 6 mil)
 
 - Fez sentido pra mim mudar a estrutura de processamento para medalhão no meio do caminho
+
+- Não existe uma correlação tão forte entre score e as variáveis numéricas (como orçamento e lucro), mas parece haver com orçamento e lucro. Entretanto, quando falo em "margem de lucro", a correlação já não parece mais tão forte.
