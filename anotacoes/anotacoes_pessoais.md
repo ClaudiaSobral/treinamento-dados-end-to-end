@@ -1,7 +1,6 @@
 ## Checklist
 
-- [ ] Segmentar o dataset a partir de 2013
-
+- [ ] Segmentar o dataset a partir de 2009
 
 ## Raciocínio
 
@@ -13,3 +12,7 @@
 - Fez sentido pra mim mudar a estrutura de processamento para medalhão no meio do caminho
 
 - Não existe uma correlação tão forte entre score e as variáveis numéricas (como orçamento e lucro), mas parece haver com orçamento e lucro. Entretanto, quando falo em "margem de lucro", a correlação já não parece mais tão forte.
+
+- O lucro dos filmes não parece fazer sentido nenhum
+
+- Esse dataset não tem nem filmes nacionais de 2023
